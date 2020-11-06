@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registrasi</title>
+  </head>
+  <body>
+    <form class="" action="contact.php" method="post">
+      <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+          <label for="">Nama:</label>
+          <input type="text" name="nama" placeholder="Nama Lengkap....">
+        </p>
+        <p>
+          <label for="">Username:</label>
+          <input type="text" name="username" placeholder="Username....">
+        </p>
+        <p>
+          <label for="">Password:</label>
+          <input type="password" name="password" placeholder="Password....">
+        </p>
+        <p>
+          <label for="">Jenis Kelamin:</label>
+          <label for=""><input type="radio" name="jenis_kelamin" value="laki-laki">Laki-Laki</label>
+          <label for=""><input type="radio" name="jenis_kelamin" value="perempuan">Perempuan</label>
+        </p>
+        <p>
+          <label for="">Agama:</label>
+          <select class="" name="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">kristen</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+          </select>
+        </p>
+        <p>
+          <label for="">Biografi:</label>
+          <textarea name="Biografi"></textarea>
+        </p>
+        <p>
+          <label for="">Alamat web:</label>
+          <input type="url" name="web" value="" placeholder="alamat web.....">
+        </p>
+        <p>
+          <label for="">Tanggal Lahir</label>
+          <input type="date" name="tanggal" value="">
+        </p>
+        <p>
+          <label for="">Umur:</label>
+          <input type="number" name="umur" min="10" max="90" value="">
+        </p>
+        <p>
+          <input type="submit" name="submit" value="Daftar">
+        </p>
+      </fieldset>
+
+    </form>
+
+  </body>
+</html>
